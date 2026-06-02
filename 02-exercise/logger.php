@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 class Logger
 {
     public static function info(string $message): void
@@ -13,4 +15,3 @@ class Logger
     }
 }
 
-Logger::info("Info guardada correctamente");

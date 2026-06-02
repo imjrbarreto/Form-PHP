@@ -15,8 +15,8 @@
     </div>
 
     <div>
-      <label for="password">email:</label>
-      <input type="email" name="email" id="password">
+      <label for="email">email:</label>
+      <input type="email" name="email" id="email">
     </div>
 
     <button type="submit">Send</button>

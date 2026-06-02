@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 class User {
   private string $firstName;
   private string $lastName;
@@ -15,7 +17,3 @@ class User {
     return "User: $this->firstName $this->lastName, Age: $this->age";
   }
 }
-
-$user = new User("Maria", "Perez", 30);
-echo $user;
-echo "\n";

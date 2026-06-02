@@ -2,7 +2,7 @@
 
 This repository contains the solutions for the Level 1 exercises of the PHP Advanced module.
 
-## Exercises
+## Sprint 1 - Tasca 6
 
 ### Exercise 1 - Sessions and Superglobals
 
@@ -53,6 +53,30 @@ Concepts practiced:
 
 - PHP 8+
 - HTML
+
+## Installation and Execution
+
+1. Clone the repository: 
+```
+git clone <repository-url>
+```
+2. Navigate to the project folder:
+```
+cd project-folder
+```
+3. Start the PHP built-in server:
+
+```
+php -S localhost:8000 01-exercise/form.php
+
+php -S localhost:8000 02-exercise/index.php
+
+php -S localhost:8000 03-exercise/index.php
+```
+4. Open the project in your browser:
+```
+http://localhost:8000
+```
 
 ## Learning Objectives
 
